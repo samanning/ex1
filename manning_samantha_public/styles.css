@@ -1,0 +1,224 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600,700);
+
+/*== CSS ==*/
+* {
+    margin:0px;
+    padding:0px;
+}
+
+/*== typography ==*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+ol,
+ul {
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*== colors ==*/
+
+body {
+    color: #9B9B9B;
+}
+
+ul a {
+    color: #9B9B9B;
+}
+
+ol a {
+    color: #9B9B9B;
+}
+
+#projects a{
+    transition: color .25s ease;
+}
+
+#logo a{
+    color: #9B9B9B;
+    transition: color .25s ease;
+}
+
+/*== grid ==*/
+
+* {
+    box-sizing: border-box;
+}
+
+.one-whole {
+    width: 100%;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.one-third {
+    width: 33%;
+}
+
+.one-fourth {
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+}
+
+#post .container {
+    width: 400px
+}
+
+.column {
+    float: left;
+}
+
+
+/*== extras ==*/
+
+.button {
+    color: #000000;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 12px;
+    border: solid 1px;
+    border-color: #9B9B9B;
+    display: inline-block;
+    border-radius: 8px;
+    border-width: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: border-color 0.25s ease;
+   
+}
+
+/*== positioning ==*/
+
+#mySketch{
+    width:800px;
+    height:250px;
+    border: 1px #ddd solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+header h2 {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+#projects {
+    margin-bottom: 100px;
+}
+
+#projects h1{
+    margin-left: 95px;
+    margin-bottom: 10px;
+}
+
+#exercises {
+    margin-left: 30px;
+}
+
+#exercises ol {
+    padding-left: 25px;
+}
+
+#assignment ul {
+    padding-left: 25px;
+}
+
+#post {
+    margin: 100px 300px 100px 300px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    line-height: 20px;
+}
+
+#post h2 {
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#post p{
+    padding-bottom: 15px;
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+
+footer h3 {
+    padding-left: 20px
+}
+
+#contact .email {
+    margin-left: 325px;
+}
+
+.center{
+    margin: auto;
+    width : 65%;
+}
+
+/*== Pseudo classes ==*/
+
+#contact .button:hover {
+    border-color: #E75B4C
+}
+
+#projects a:hover{
+    color: #000000;
+}
+
+#logo a:hover {
+    color: #E75B4C
+}
