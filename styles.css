@@ -185,6 +185,10 @@ header h2 {
     padding-bottom: 15px;
 }
 
+#post img {
+    margin-bottom: 60px;
+}
+
 footer {
     padding-top: 15px;
     padding-bottom: 15px;
