@@ -208,6 +208,9 @@ footer h3 {
     padding-left: 20px
 }
 
+footer #valid {
+    padding-right: 20px;
+}
 #contact .email {
     margin-left: 325px;
 }
