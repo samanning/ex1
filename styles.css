@@ -213,6 +213,11 @@ footer h3 {
     width : 65%;
 }
 
+.centerSmall {
+    margin: auto;
+    width: 50%;
+}
+
 /*== visibility ==*/
 h6 {
     visibility: hidden;
