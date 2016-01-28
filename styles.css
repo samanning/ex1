@@ -135,7 +135,7 @@ ol a {
 #mySketch{
     width:800px;
     height:250px;
-    border: 1px #ddd solid;
+    /*border: 1px #ddd solid;*/
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
