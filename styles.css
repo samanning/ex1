@@ -63,6 +63,10 @@ ol a {
     transition: color .25s ease;
 }
 
+footer a{
+    color: #9B9B9B;
+}
+
 /*== grid ==*/
 
 * {
@@ -235,4 +239,19 @@ h6 {
 
 #logo a:hover {
     color: #E75B4C
+}
+
+footer a:hover{
+    color: #E75B4C;
+}
+
+/*== blog validation ==*/
+#valid li {
+    list-style-type: none;
+    display: inline;
+    font-size:10px;
+}
+
+#valid {
+    float: right;
 }
