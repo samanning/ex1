@@ -13,7 +13,7 @@ body {
     font-size: 14px;
 }
 
-h1 {
+h4 {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -151,7 +151,7 @@ header h2 {
     margin-bottom: 100px;
 }
 
-#projects h1{
+#projects h4 {
     margin-left: 95px;
     margin-bottom: 10px;
 }
@@ -211,6 +211,11 @@ footer h3 {
 .center{
     margin: auto;
     width : 65%;
+}
+
+/*== visibility ==*/
+h6 {
+    visibility: hidden;
 }
 
 /*== Pseudo classes ==*/
