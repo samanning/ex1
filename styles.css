@@ -101,7 +101,7 @@ footer a{
 }
 
 #post .container {
-    width: 400px
+    width: 500px
 }
 
 .column {
@@ -217,14 +217,14 @@ footer #valid {
 
 .center{
     margin: auto;
-    width : 65%;
+    width : 50%;
 }
-
+/*
 .centerSmall {
     margin: auto;
     width: 50%;
 }
-
+*/
 article ul li {
     margin-left: 40px;
 }
