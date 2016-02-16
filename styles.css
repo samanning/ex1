@@ -67,6 +67,10 @@ footer a{
     color: #9B9B9B;
 }
 
+article ul a {
+    color: blue;
+}
+
 /*== grid ==*/
 
 * {
